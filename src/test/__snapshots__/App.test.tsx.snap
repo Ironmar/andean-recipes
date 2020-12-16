@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test in <App/> should be return the component correctly 1`] = `
+<RecipeProvider>
+  <Navbar />
+  <div
+    className="container"
+  >
+    <MainContent />
+    <AsideImage />
+  </div>
+</RecipeProvider>
+`;

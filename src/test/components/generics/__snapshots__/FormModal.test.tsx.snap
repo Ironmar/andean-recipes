@@ -1,0 +1,74 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test in <FormModal/> should be return the component correctly 1`] = `
+<div
+  className="modal"
+>
+  <form
+    className="form"
+    onSubmit={[Function]}
+  >
+    <div
+      className="form-group-header"
+    >
+      <label
+        htmlFor="recipe"
+      >
+        New Recipe
+      </label>
+      <input
+        id="recipe"
+        name="name"
+        onChange={[Function]}
+        placeholder="Recipe Name"
+        type="text"
+        value=""
+      />
+      <button
+        className="close-modal"
+        onClick={[Function]}
+        type="button"
+      >
+        X
+      </button>
+    </div>
+    <div
+      className="form-group"
+    >
+      <h3>
+        Ingredients
+      </h3>
+      <button
+        className="modal-add-button"
+        onClick={[Function]}
+        type="button"
+      >
+        <img
+          alt="add_icon"
+          src="add_icon.svg"
+        />
+      </button>
+    </div>
+    <div
+      className="form-group"
+    >
+      <h3>
+        Instructions
+      </h3>
+      <textarea
+        className="instructions"
+        name="instructions"
+        onChange={[Function]}
+        placeholder="Instructions"
+        value=""
+      />
+    </div>
+    <button
+      className="create-recipe "
+      type="submit"
+    >
+      ✓ Create
+    </button>
+  </form>
+</div>
+`;

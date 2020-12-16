@@ -1,0 +1,21 @@
+.ingredient {
+  display: flex;
+  align-items: center;
+  .mark-ingredient {
+    border-radius: 100%;
+    background-color: $grey;
+    height: 1.2em;
+    width: 1.2em;
+    text-align: center;
+    color: #fff;
+    cursor: pointer;
+  }
+  .checked {
+    background-color: $green;
+  }
+  p {
+    display: inline-block;
+    margin: 0.4em 0.5em;
+    color: $greyDark;
+  }
+}

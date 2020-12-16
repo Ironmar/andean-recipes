@@ -1,0 +1,16 @@
+@import "./resources/variables";
+@import "./resources/mixins";
+@import "./resources/animations";
+@import "./resources/global";
+@import "./resources/colors";
+@import "./resources/app";
+// components
+@import "./components/sections/navBar";
+@import "./components/sections/asideImage";
+@import "./components/sections/mainContent";
+
+//generics
+@import "./components/generics/formModal";
+@import "./components/generics/input";
+@import "./components/generics/error";
+@import "./components/generics/ingredient";

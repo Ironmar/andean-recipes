@@ -1,0 +1,108 @@
+.main-content {
+  padding: 1.5em 2em;
+  width: 50%;
+  height: 100%;
+  .head {
+    display: flex;
+    justify-content: space-between;
+    h2 {
+      color: $greyDark;
+    }
+    .select-recipe {
+      background-color: $grey;
+      border: none;
+      border-radius: 0.4em;
+      appearance: none;
+      padding: 1em;
+      outline: none;
+      color: $greyDark;
+
+      .opt {
+        color: $grey;
+      }
+    }
+  }
+
+  .container-recipe {
+    display: flex;
+    flex-direction: column;
+    height: 90%;
+    .bar {
+      display: flex;
+      justify-content: space-between;
+      background-color: $grey;
+      padding: 0.8em;
+      border-radius: 0.4em 0.4em 0 0;
+      .title-recipe {
+        display: inline-block;
+        margin: 0;
+        color: $greyDark;
+        font-weight: 700;
+      }
+      span {
+        margin: 0 1em;
+        color: $greyDark;
+      }
+      .readed-text {
+        display: inline-block;
+        color: $red;
+        margin: 0;
+        text-transform: uppercase;
+      }
+
+      .green {
+        color: $green;
+      }
+
+      button {
+        @include button($red);
+        background-color: $grey;
+        img {
+          height: 1.6em;
+          width: 1.6em;
+        }
+      }
+    }
+
+    .wrap-recipe {
+      border: 1px solid $grey;
+      height: 60%;
+      overflow: auto;
+      padding: 1em;
+      .recipe-content {
+        width: 60%;
+        h3 {
+          margin: 0 0 1em 0;
+          color: $green;
+        }
+
+        .ingredients {
+          margin-bottom: 1em;
+        }
+        .instructions {
+          color: $greyDark;
+          text-align: justify;
+        }
+      }
+    }
+
+    .button-read {
+      @include button(#fff);
+      background-color: $green;
+      align-self: flex-end;
+      margin: 1em;
+      padding: 0.8em 1em;
+      border-radius: 20px;
+      transition: background-color 400ms ease;
+      &:hover {
+        background-color: $greenDark;
+      }
+    }
+  }
+}
+
+@media (max-width: $phone) {
+  .main-content {
+    width: 100%;
+  }
+}

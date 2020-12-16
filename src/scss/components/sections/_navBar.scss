@@ -1,0 +1,28 @@
+.nav {
+  background-color: $grey;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 10%;
+  padding: 1em 2em;
+
+  .add-button {
+    @include button($greyDark);
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+
+    img {
+      height: 1.6em;
+      width: 1.6em;
+      margin-right: 0.5em;
+    }
+  }
+
+  .logo {
+    height: 2.1em;
+    width: 2em;
+    min-width: 2em;
+  }
+}

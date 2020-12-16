@@ -1,0 +1,23 @@
+@mixin button($color) {
+  border: none;
+  outline: none;
+  background-color: transparent;
+  cursor: pointer;
+  color: $color;
+}
+
+@mixin input {
+  background-color: #f0f4f8;
+  border: none;
+  border-radius: 0.5rem;
+  color: $greyDark;
+  padding: 1em;
+  &::placeholder {
+    color: #b9cada;
+  }
+  &:focus {
+    outline: none;
+    transition: box-shadow 300ms ease;
+    box-shadow: 0 0 1pt 1pt $green;
+  }
+}

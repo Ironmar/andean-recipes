@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test in <AsideImage/> should be return the component correctly 1`] = `
+<div
+  className="image-container"
+>
+  <img
+    alt="food_dish"
+    src="food_dish.jpg"
+  />
+</div>
+`;

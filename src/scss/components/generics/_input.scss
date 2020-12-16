@@ -1,0 +1,36 @@
+.wrapper {
+  display: flex;
+  align-items: center;
+  margin: 0.5em 0;
+  animation: modalAnimation 200ms ease-in;
+  .input-text-form {
+    @include input();
+    flex: 1 1 auto;
+    margin-right: 1em;
+  }
+  .input-number-form {
+    @include input();
+    width: 20%;
+    margin-right: 1em;
+  }
+  .trash-button {
+    @include button($red);
+    img {
+      height: 1.6em;
+      width: 1.6em;
+    }
+  }
+}
+.error {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+@media (max-width: $phone) {
+  .wrapper {
+    .input-text-form {
+      width: 60%;
+    }
+  }
+}

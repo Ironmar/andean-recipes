@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test in <NavBar/> should be return the component correctly 1`] = `
+<Fragment>
+  <div
+    className="nav"
+  >
+    <button
+      className="add-button"
+      onClick={[Function]}
+      type="button"
+    >
+      <img
+        alt="add_icon"
+        src="add_icon.svg"
+      />
+      Add Recipe
+    </button>
+    <img
+      alt="tinkin_logo"
+      className="logo"
+      src="tinkin.png"
+    />
+  </div>
+</Fragment>
+`;
