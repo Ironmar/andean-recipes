@@ -12,6 +12,7 @@ El prensente proyecto esta desarrollado con ReactJs junto con TypeScript.
 
 ## Scripts 
 Iniciar `yarn start`
+
 Test `yarn test`
 
 
